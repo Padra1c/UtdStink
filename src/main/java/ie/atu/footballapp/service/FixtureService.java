@@ -11,6 +11,10 @@ public class FixtureService {
     private final List<Fixtures>  fixtures = new ArrayList<>();
     private long nextId = 1;
 
+    public List<Fixtures> getFixtures() {
+        return fixtures;
+    }
+
     public Fixtures addFixture (Fixtures fixture) {
         fixture.setId(nextId++);
         fixtures.add(fixture);
