@@ -15,6 +15,7 @@ public class Fixtures {
     private String name;
 
     public Fixtures() {
+
     }
 
     public Fixtures(Long id, String name) {
