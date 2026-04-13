@@ -9,8 +9,10 @@ import lombok.Setter;
 public class Fixtures {
     private Long id;
 
-    @NotBlank(message="Team name is needed")
-    private String name;
+    @NotBlank(message="Team 1 name is needed")
+    private String team1;
+    @NotBlank(message="Team 2 name is needed")
+    private String team2;
 
     public Fixtures() {
 
@@ -18,7 +20,8 @@ public class Fixtures {
 
     public Fixtures(Long id, String name) {
         this.id = id;
-        this.name = name;
+        this.team1 = team1;
+        this.team2 = team2;
     }
 
     public Long getId() {
@@ -29,11 +32,19 @@ public class Fixtures {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getTeam1() {
+        return team1;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTeam1(String team1) {
+        this.team1 = team1;
+    }
+
+    public String getTeam2() {
+        return team2;
+    }
+
+    public void setTeam2(String team2) {
+        this.team2 = team2;
     }
 }

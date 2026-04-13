@@ -11,28 +11,28 @@ public class PlayerService {
 
     private final List<Players> players = List.of(
             new Players(1L, "Allison Becker", "Liverpool"),
-            new Players(2L, "Ibrahim Konate", "Liverpool"),
-            new Players(3L, "Virgl Van Dijk", "Liverpool"),
-            new Players(4L, "Milos Kerkez", "Liverpool"),
-            new Players(5L, "Jermie Frimpong", "Liverpool"),
-            new Players(6L, "Ryan Gravenberch", "Liverpool"),
-            new Players(7L, "Alexis MacAllister", "Liverpool"),
-            new Players(8l, "Florian Wirtz", "Liverpool"),
-            new Players(9l, "Mohamed Salah", "Liverpool"),
-            new Players(10l, "Hugo Ekitike", "Liverpool"),
-            new Players(11l, "Cody Gakpo", "Liverpool"),
+            new Players(5L, "Ibrahim Konate", "Liverpool"),
+            new Players(4L, "Virgl Van Dijk", "Liverpool"),
+            new Players(6L, "Milos Kerkez", "Liverpool"),
+            new Players(30L, "Jermie Frimpong", "Liverpool"),
+            new Players(38L, "Ryan Gravenberch", "Liverpool"),
+            new Players(10L, "Alexis MacAllister", "Liverpool"),
+            new Players(7l, "Florian Wirtz", "Liverpool"),
+            new Players(11l, "Mohamed Salah", "Liverpool"),
+            new Players(22l, "Hugo Ekitike", "Liverpool"),
+            new Players(18l, "Cody Gakpo", "Liverpool"),
 
             new Players(1L, "David Raya", "Arsenal"),
-            new Players(1L, "Ben White", "Arsenal"),
-            new Players(1L, "Saliba", "Arsenal"),
-            new Players(1L, "Gabriel", "Arsenal"),
-            new Players(1L, "Olexander Zinchenko", "Arsenal"),
-            new Players(1L, "Thomas Partey", "Arsenal"),
-            new Players(1L, "Odegaard", "Arsenal"),
-            new Players(1L, "Declan Rice", "Arsenal"),
-            new Players(1L, "Saka", "Arsenal"),
-            new Players(1L, "Jesus", "Arsenal"),
-            new Players(1L, "Martinelli", "Arsenal")
+            new Players(4L, "Ben White", "Arsenal"),
+            new Players(2L, "Saliba", "Arsenal"),
+            new Players(6L, "Gabriel", "Arsenal"),
+            new Players(16L, "Olexander Zinchenko", "Arsenal"),
+            new Players(12L, "Jurien Timber", "Arsenal"),
+            new Players(19L, "Odegaard", "Arsenal"),
+            new Players(41L, "Declan Rice", "Arsenal"),
+            new Players(7L, "Saka", "Arsenal"),
+            new Players(9L, "Jesus", "Arsenal"),
+            new Players(11L, "Martinelli", "Arsenal")
     );
 
     public List<Players> getPlayersByTeam(String teamName) {

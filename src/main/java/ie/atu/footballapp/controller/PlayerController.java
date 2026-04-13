@@ -15,7 +15,7 @@ public class PlayerController {
         this.playerService = playerService;
     }
 
-    @GetMapping("/team/{teamName}/Team")
+    @GetMapping("/players/team/{teamName}")
     public List<Players> getPlayers(@PathVariable String teamName) {
         return playerService.getPlayersByTeam(teamName);
     }
